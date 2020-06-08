@@ -8,7 +8,7 @@ class SimpleComponent extends React.Component {
     }
   }
   
-  handleClick() {
+  handleClick = () => {
     if (this.state === "happy") {
       const newMood = "sad"
     }
