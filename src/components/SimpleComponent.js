@@ -8,6 +8,12 @@ class SimpleComponent extends React.Component {
     }
   }
   
+  handleClick() {
+    this.setState({
+      mood: "sad"
+    })
+  }
+  
   render() {
     return (
       <div>
