@@ -9,7 +9,11 @@ class SimpleComponent extends React.Component {
   }
   
   render() {
-    
+    return (
+      <div>
+        <h1>{ this.state.mood }</h1>
+      </div>
+      )
   }
 }
 
